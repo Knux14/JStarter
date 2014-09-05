@@ -1,12 +1,12 @@
 JStarter
-
 ========
-
-
 A simple PStart-like program made in Java to be compatible to every OS
 ========
 
 Basically, It allows you to have a nice menu for all your apps on UsbKey (Portable applications). It was made since PStart is Windows only, and others are too complex. I just needed a simple menu with my apps ;)
+/!\ Even if I made everything in my possible for it to be multi-os, it will not work on a single key for Anywhere to this shit called Windows. 
+The problem is that it does not recognise Ext4 or any unix-permission-file so the programs wont be able to load since you cant chmod +x a file on FAT32/NTFS partition.
+Sorry for the inconvenience :(
 
 =========
 Compiling
